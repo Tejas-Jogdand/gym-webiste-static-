@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:'Ubuntu', sans-serif; 
+}
+body{
+    background: url('../img/bgig.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+header{
+    border: 2px solid rgb(188, 179, 179);
+    position: sticky;
+    border-radius: 0px 0px 40px 40px;
+    background-color:rgb(67, 62, 62) ;
+}
+.left{
+   /* border: 2px solid green;*/
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 34px;
+    padding: 10px;
+    text-align: left;
+}
+.left img{
+    width: 48px;
+    border-radius: 31px;
+}
+
+.mid{
+    border: 2px solid rgb(39, 37, 37);
+    background-color: rgb(39, 37, 37);
+    border-radius: 30px;
+    display: block;
+    width: 38%;
+    margin: 12px auto;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    border-radius: 30px;
+    top: 12px;
+    right: 34px;
+    padding: 10px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    font-size: 1.2rem;    
+}
+.navbar li a{
+    color: white;
+    padding: 34px 13px;
+    text-decoration: none;
+}
+
+.navbar li a:hover,.navbar li a.active{
+   text-decoration: underline;
+   color: gray;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: transparent;
+    color: white;
+    padding: 3px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    font-family:'Ubuntu', sans-serif;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
