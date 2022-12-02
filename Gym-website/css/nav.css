@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-*{
+
+* {
     padding: 0%;
     margin: 0%;
-    font-family:'Ubuntu', sans-serif; 
+    font-family: 'Ubuntu', sans-serif;
 }
-body{
+
+body {
     background: url('../img/bgig.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
     color: white;
 }
-header{
+
+header {
     position: sticky;
     background: transparent;
 }
-.left{
+
+.left {
     display: inline-block;
     position: absolute;
     top: 5px;
@@ -24,21 +28,20 @@ header{
     text-align: left;
     margin: -12px;
 }
-.left img{
+
+.left img {
     width: 48px;
     border-radius: 31px;
 }
-.mid{
-    border: 2px solid rgb(39, 37, 37);
-    background-color: rgb(119 110 110);
-    border-radius: 30px;
+
+.mid {
     display: block;
     width: 34%;
     margin: 9px auto;
     padding: 12px;
-    
 }
-.right{
+
+.right {
     display: inline-block;
     position: absolute;
     border-radius: 30px;
@@ -47,38 +50,45 @@ header{
     padding: 10px;
     margin: -7px;
 }
-.line{
-    border:1px solid rgb(199 188 188)
-}
-.navbar{
+
+.navbar {
     display: inline-block;
 }
-.navbar li{
+
+.navbar li {
     display: inline-block;
     list-style: none;
-    font-size: 1.2rem;    
+    font-size: 1.2rem;
 }
-.navbar li a{
+
+.navbar li a {
     color: white;
     padding: 34px 13px;
     text-decoration: none;
 }
-.navbar li a:hover,.navbar li a.active{
-   text-decoration: underline;
-   color: rgb(6, 5, 5);
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: rgb(64 64 64);
+    background: white;
+    padding: 13px;
+    border-radius: 16px;
+    transition: 0.5s ease;
 }
-.btn{
-    margin: 0px 9px;
+
+.btn {
+    margin: -4px 9px;
     background-color: transparent;
     color: white;
-    padding: 3px 14px;
+    padding: 4px 15px;
     border: 2px solid gray;
     border-radius: 10px;
     font-size: 17px;
     cursor: pointer;
-    font-family:'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
-.btn:hover{
+
+.btn:hover {
     color: black;
     background-color: white;
     border: 2px solid black;
