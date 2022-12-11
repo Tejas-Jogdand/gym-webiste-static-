@@ -28,23 +28,29 @@ body {
 .left {
     display: inline-block;
     position: absolute;
-    top: 5px;
+    top: -5px;
     left: 34px;
     padding: 11px;
     text-align: left;
     margin: -12px;
 }
-
+.span1{
+    display: flex;
+    line-height: 2px;;
+}
 .left img {
     width: 48px;
     border-radius: 31px;
+    padding: 14px;
+    display: flex;
+
 }
 
 .mid {
     display: block;
     width: 34%;
     margin: 9px auto;
-    padding: 12px;
+    padding: 20px;
 }
 
 .right {
@@ -90,7 +96,7 @@ body {
 }
 
 .btn {
-    margin: -4px 9px;
+    margin: 10px 7px;
     background-color: transparent;
     color: white;
     padding: 4px 15px;
